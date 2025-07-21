@@ -63,12 +63,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				wedding: {
-					burgundy: '#8B1538',
-					'burgundy-light': '#A01E4C',
-					gray: '#6B7280',
-					'gray-light': '#9CA3AF',
-					'gray-dark': '#374151',
-					cream: '#FFFEF7',
+					burgundy: '#800020',
+					'burgundy-light': '#A52A2A',
+					'burgundy-dark': '#5C0017',
+					gray: '#808080',
+					'gray-light': '#C0C0C0',
+					'gray-dark': '#555555',
+					cream: '#FFFAF0',
+					white: '#FFFFFF',
 				}
 			},
 			borderRadius: {

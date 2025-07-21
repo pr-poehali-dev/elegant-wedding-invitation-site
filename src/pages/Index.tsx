@@ -47,29 +47,37 @@ const Index = () => {
         <div className="text-center z-10 animate-fade-in">
           <div className="mb-8 relative">
             <img 
-              src="/img/8a288713-4a16-4d50-badc-b840b14d6283.jpg" 
+              src="/img/1949d4e9-f0a2-4442-a791-b6231b7148d1.jpg" 
               alt="Wedding Rings" 
-              className="w-24 h-24 mx-auto mb-6 animate-float"
+              className="w-32 h-32 mx-auto mb-8 rounded-full shadow-2xl animate-float"
             />
           </div>
           
-          <h1 className="font-cormorant text-7xl md:text-8xl font-bold text-wedding-burgundy mb-4">
-            Анна & Евгений
+          <h1 className="font-cormorant text-8xl md:text-9xl font-bold text-wedding-burgundy mb-6 leading-none">
+            <span className="block">Анна</span>
+            <span className="text-3xl md:text-4xl text-wedding-gray font-normal mx-4">&</span>
+            <span className="block">Евгений</span>
           </h1>
           
-          <div className="w-24 h-0.5 bg-wedding-burgundy mx-auto mb-6"></div>
+          <div className="w-32 h-0.5 bg-wedding-burgundy mx-auto mb-8"></div>
           
-          <p className="font-montserrat text-xl text-wedding-gray mb-8 max-w-2xl mx-auto leading-relaxed">
-            Приглашаем вас разделить с нами самый важный день нашей жизни
+          <p className="font-montserrat text-xl md:text-2xl text-wedding-gray mb-12 max-w-2xl mx-auto leading-relaxed">
+            Приглашаем вас разделить с нами<br />
+            самый важный день нашей жизни
           </p>
           
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 mb-8 inline-block">
-            <p className="font-cormorant text-3xl font-semibold text-wedding-burgundy mb-2">15 августа 2024</p>
-            <p className="font-montserrat text-wedding-gray">Москва, Усадьба Коломенское</p>
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-10 mb-12 inline-block shadow-xl border border-wedding-gray-light/20">
+            <p className="font-cormorant text-5xl font-semibold text-wedding-burgundy mb-3">15 августа 2024</p>
+            <p className="font-montserrat text-xl text-wedding-gray">Москва • Усадьба Коломенское</p>
+            <div className="flex justify-center mt-6 space-x-4">
+              <Icon name="MapPin" size={24} className="text-wedding-burgundy" />
+              <Icon name="Clock" size={24} className="text-wedding-gray" />
+              <Icon name="Heart" size={24} className="text-wedding-burgundy-light" />
+            </div>
           </div>
           
           <Button 
-            className="bg-wedding-burgundy hover:bg-wedding-burgundy-light text-white px-8 py-3 rounded-full font-montserrat text-lg transition-all duration-300 transform hover:scale-105"
+            className="bg-wedding-burgundy hover:bg-wedding-burgundy-dark text-white px-12 py-4 rounded-full font-montserrat text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
             onClick={() => document.getElementById('rsvp')?.scrollIntoView({behavior: 'smooth'})}
           >
             Подтвердить участие
@@ -88,9 +96,9 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-scale-in">
               <img 
-                src="/img/6aef1900-6b00-40d4-9fae-f84a06a45d57.jpg" 
+                src="/img/603d875e-1100-4d3c-a620-59b5f2fa558b.jpg" 
                 alt="Our Love Story" 
-                className="rounded-2xl shadow-2xl w-full"
+                className="rounded-3xl shadow-2xl w-full transform hover:scale-105 transition-transform duration-500"
               />
             </div>
             
